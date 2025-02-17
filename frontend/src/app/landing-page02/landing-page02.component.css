@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syncopate:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page1_container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.page01_header {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 4.25rem;
+}
+
+.page01_img {
+  display: flex;
+  width: 100%;
+}
+.page01_img1{
+  display: flex;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+.story__container .page01_header {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.story__grid {
+  display: grid;
+  gap: 4rem 1rem;
+}
+
+.story__date {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #737373;
+}
+
+.story__date span {
+  padding-right: 10px;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  border-right: 2px solid #737373;
+}
+
+.story__date div p {
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #737373;
+}
+
+.story__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: var(--text-dark);
+}
+
+.story__card p {
+  margin-bottom: 2rem;
+  color: #737373;
+}
+
+.banner__container {
+  padding-block: 5rem;
+  overflow: hidden;
+}
+
+.banner__wrapper {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+
+  animation: scroll 45s linear infinite;
+}
+
+.banner__wrapper .page01_img {
+  height: 100px;
+}
+.banner__wrapper .page01_img1 {
+  height: 100px;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-50% - 4rem));
+  }
+}
+
+@media (width > 540px) {
+  .story__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 768px) {
+  .story__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width > 1024px) {
+
+  .story__grid {
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .banner__wrapper .page01_img1 {
+    height: 80px;
+  }
+  .page01_header{
+    font-size: 2rem; 
+    line-height: 2.5rem;
+  }
+  .story__card h4{
+    font-size: 1.3rem; 
+  }
+  .story__date span {
+    font-size: 2.5rem; 
+  }
+}
