@@ -4,7 +4,7 @@ This is an Angular web application created using the Angular CLI.
 
 ## 🚀 Getting Started
 
-### 1️⃣ Install Node.js and Angular CLI  
+### 1⃣ Install Node.js and Angular CLI  
 Make sure you have **Node.js** installed. If not, download it from [Node.js Official Website](https://nodejs.org/).
 
 Install Angular CLI globally:
@@ -12,7 +12,7 @@ Install Angular CLI globally:
 npm install -g @angular/cli
 ```
 
-### 2️⃣ Create a New Angular Project  
+### 2⃣ Create a New Angular Project  
 Run the following command to create a new Angular app:
 ```bash
 ng new my-angular-app
@@ -22,7 +22,7 @@ Navigate into the project folder:
 cd my-angular-app
 ```
 
-### 3️⃣ Start the Development Server  
+### 3⃣ Start the Development Server  
 To run the application locally:
 ```bash
 ng serve
@@ -126,7 +126,7 @@ git branch
 4. **Edit README**  
    If you edit the README file, commit with a message like:  
    ```bash
-   git commit -m "Update README"
+   git commit -m "Update README 1.0V"
    ```
 
 5. **File Updates with Versioning**  
@@ -142,7 +142,7 @@ git branch
 
    If you make another update:
    ```bash
-   git commit -m "Update Component Name1 .2V"
+   git commit -m "Update Component Name 1.2V"
    ```
 
    After reaching **1.9**:
@@ -151,6 +151,56 @@ git branch
    ```
 
 ---
+
+## 🛆 Installing Dependencies  
+If you clone this repository, install dependencies before running the project:
+```bash
+npm install
+```
+
+---
+
+## 🔄 Commit Process and Pull Requests
+
+1. **Create a new branch before making changes**
+   ```bash
+   git checkout -b feature-branch
+   ```
+
+2. **Commit changes** following the commit message format:
+   ```bash
+   git commit -m "Update README 1.0V"
+   ```
+
+3. **Push the branch to GitHub**
+   ```bash
+   git push origin feature-branch
+   ```
+
+4. **Create a pull request (PR)** and assign a reviewer.
+   - Add a description with details:
+     ```
+     User name: Kalana001
+     File Version: Readme
+     Change: Create Readme
+     ```
+
+5. **Reviewer checks the PR**
+   - If changes are approved, they comment:
+     ```
+     Review Done and Approved
+     ```
+   - Then, they merge the PR into `main`.
+
+6. **Merge to main**
+   ```bash
+   git checkout main
+   git merge feature-branch
+   git push origin main
+   ```
+
+---
+
 
 ## 📦 Installing Dependencies  
 If you clone this repository, install dependencies before running the project:
