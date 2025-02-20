@@ -103,55 +103,6 @@ git branch
 
 ---
 
-## 🌟 Commit Guidelines
-
-1. **Create a Component**  
-   If you create a new component, commit with a message like:  
-   ```bash
-   git commit -m "Create Component Name"
-   ```
-
-2. **Remove or Delete a Component**  
-   If you remove or delete a component, commit with a message like:  
-   ```bash
-   git commit -m "Remove Component Name"
-   ```
-
-3. **Add Image Assets**  
-   If you add images or other assets to the project, commit with a message like:  
-   ```bash
-   git commit -m "Add image assets"
-   ```
-
-4. **Edit README**  
-   If you edit the README file, commit with a message like:  
-   ```bash
-   git commit -m "Update README 1.0V"
-   ```
-
-5. **File Updates with Versioning**  
-   - If you update any file (e.g., a service, component, or other significant files), first **check the latest commit** for that file.
-   - Start with **1.0** as the initial version.
-   - After updating, increment the version number from **1.0** to **1.9** (e.g., 1.1, 1.2, etc.).
-   - When reaching **1.9**, then increment to **2.0** for the next major update.
-
-   For example, after updating a file (e.g., `component-name.component.ts`), you would commit like this:
-   ```bash
-   git commit -m "Update Component Name 1.1V"
-   ```
-
-   If you make another update:
-   ```bash
-   git commit -m "Update Component Name 1.2V"
-   ```
-
-   After reaching **1.9**:
-   ```bash
-   git commit -m "Update Component Name 2.0V"
-   ```
-
----
-
 ## 🛆 Installing Dependencies  
 If you clone this repository, install dependencies before running the project:
 ```bash
@@ -166,33 +117,38 @@ npm install
    ```bash
    git checkout -b feature-branch
    ```
+2. **File Updates with Versioning**  
+   - If you update any file (e.g., a service, component, or other significant files), first **check the latest commit** for that file.
+   - Start with **1.0** as the initial version.
+   - After updating, increment the version number from **1.0** to **1.9** (e.g., 1.1, 1.2, etc.).
+   - When reaching **1.9**, then increment to **2.0** for the next major update.
 
-2. **Commit changes** following the commit message format:
+3. **Commit changes** following the commit message format:
    ```bash
-   git commit -m "Update README 1.0V"
+   git commit -m "Update Autonexus 1.0v"
    ```
 
-3. **Push the branch to GitHub**
+4. **Push the branch to GitHub**
    ```bash
    git push origin feature-branch
    ```
 
-4. **Create a pull request (PR)** and assign a reviewer.
+5. **Create a pull request (PR)** and assign a reviewer.
    - Add a description with details:
      ```
      User name: Kalana001
-     File Version: Readme
-     Change: Create Readme
+     File Version: Autonexus 1.0v
+     Ticket name: #123
      ```
 
-5. **Reviewer checks the PR**
+6. **Reviewer checks the PR**
    - If changes are approved, they comment:
      ```
      Review Done and Approved
      ```
    - Then, they merge the PR into `main`.
 
-6. **Merge to main**
+7. **Merge to main**
    ```bash
    git checkout main
    git merge feature-branch
