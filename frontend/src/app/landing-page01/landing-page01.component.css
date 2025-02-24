@@ -20,13 +20,11 @@ body {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: "Mulish", sans-serif;
-}
+
 .landingPage{
     position: relative;
     /* background-image: url('../../assets/header-bg.png'); */
-    background-image: url('D:/Nibm/HND/HND_Final_Web/GAHDSE23-autonexus/client/public/assets/back_pg2.PNG');
+    background-image: url('../../../public/assets/back_pg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
