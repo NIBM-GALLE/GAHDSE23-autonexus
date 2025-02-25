@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-:root {
-  --primary-color: #fe5b3e;
-  --text-dark: #0f172a;
-  --text-light: #475569;
-  --extra-light: #f2f2f2;
-  --white: #ffffff;
-  --max-width: 1200px;
-  --gradient: linear-gradient(to bottom, #fe5c3c, #fc8023);
-}
-
+/* #1F26FF
+#1F53FF
+#1F80FF
+#1FADFF
+#1FDAFF */
 
 .nav_btn {
   padding: 0.75rem 1.5rem;
@@ -18,7 +13,7 @@
   font-size: 1rem;
   color: #ffffff;
   font-weight: bold;
-  background: #0f172a;
+  background: #454242;
   white-space: nowrap;
   border-radius: 4px;
   transition: 0.3s;
@@ -27,7 +22,7 @@
 }
 
 .nav_btn:hover {
-  background: linear-gradient(to bottom, #f5b754, #fbc02d);
+  background: linear-gradient(to bottom, #1799e5, #1FADFF);
   color: #0f172a;
 }
 
@@ -61,7 +56,10 @@ ul {
 .nav_logo a {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--white);
+  color: #454242;
+}
+.nav-logotext{
+  color: #454242;
 }
 
 .nav_menu_btn {
@@ -93,7 +91,11 @@ ul {
 
 .nav_links a {
   font-weight: 700;
-  color: var(--white);
+  color: #454242;
+}
+.nav_links a:hover {
+  color: #1799e5; 
+  border-color: #1799e5; 
 }
 
 .nav_links .nav_btn {
@@ -125,7 +127,7 @@ ul {
 
   .nav_logo a {
     font-weight: 800;
-    color: var(--text-dark);
+    color: #454242;
   }
 
   .nav_menu_btn {
@@ -143,7 +145,7 @@ ul {
 
   .nav_links a {
     padding-block: 5px;
-    color: var(--text-dark);
+    color: #454242;
     border-bottom: 2px solid transparent;
   }
 
