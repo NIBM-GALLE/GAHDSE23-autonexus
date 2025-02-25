@@ -1,7 +1,9 @@
 .container {
   min-height: 100vh;
   width: 100%;
-  background-color: rgba(114, 184, 249, 0.29);
+  background: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0) 30%),
+  linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0) 30%);
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -11,24 +13,23 @@
 
 .form {
   width: 100%;
-  max-width: 820px;
+  max-width: 1200px;
+  height:700px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .contact-form {
-  background-color: #1a70bc;
+  background: linear-gradient(to bottom, #3C9FFE, #1E7ED6, #0A5CA8);
   position: relative;
 }
 
 .circle {
   position: absolute;
-  background: linear-gradient(135deg, transparent 20%, #146a92);
   border-radius: 50%;
 }
 
