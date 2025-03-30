@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syncopate:wght@400;700&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.landingfooter_section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.landingfooter_header {
+  font-size: 3.1rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 4.25rem;
+}
+
+.footer_btn {
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #15191d;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer_btn:hover {
+  color: #15191d;
+  background-color: #f5b754;
+}
+
+.landingfooter_img {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-50% - 4rem));
+  }
+}
+
+.landingfooter_download {
+  position: relative;
+  isolation: isolate;
+  padding-inline: 1rem;
+  overflow: hidden;
+}
+
+.landingfooter_download::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(50% - 5rem);
+  background-color: #15191d;
+  z-index: -1;
+}
+
+.landingfooter_download__container {
+  padding: 0 1rem;
+  display: grid;
+  /* background-color: #f5b754; */
+  background: linear-gradient(to bottom, #3C9FFE, #1E7ED6, #0A5CA8);
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 15px; 
+}
+
+.landingfooter_download__content {
+  padding-block: 5rem;
+}
+
+.landingfooter_download__content .landingfooter_header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.landingfooter_download__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.landingfooter_download__links .landingfooter_img {
+  max-width: 150px;
+}
+
+.download__image {
+  display: none;
+  margin-top: 50px;
+}
+
+.news {
+  background-color: #15191d;
+}
+
+.news__container {
+  padding-bottom: 0;
+  display: grid;
+  gap: 2rem;
+}
+
+.news__container .landingfooter_header {
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  letter-spacing: -2px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.news__container form {
+  width: 100%;
+  max-width: 450px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.news__container input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0.75rem 0;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: transparent;
+  border-bottom: 2px solid #737373;
+}
+
+.news__container .footer_btn {
+  padding: 10p 12px;
+  font-size: 1.5rem;
+  /* background-color: #f5b754; */
+  background: linear-gradient(to bottom, #f5b754, #fdd835, #fbc02d);
+}
+
+.landingfooter_u {
+  background-color: #15191d;
+}
+
+.landingfooter_container {
+  display: grid;
+  gap: 4rem 2rem;
+  border-bottom: 1px solid #737373;
+}
+
+.landingfooter_col h4 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.landingfooter_links {
+  display: grid;
+  gap: 1rem;
+  text-align: justify;
+}
+.landingfooter_links li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.landingfooter_circle {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 50%; 
+  margin-right: 15px;
+}
+.landingfooter_contact{
+  color: #c4c1c1;
+  
+}
+.flandingfooter_circle{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; 
+  border-radius: 50%; 
+  margin-right: 15px;
+  transition: background-color 0.3s ease;
+}
+.flandingfooter_circle:hover{
+  background-color: #3C9FFE;
+}
+.fcontact_icon {
+  font-size: 20px;
+  color: #333; 
+}
+.landingfooter_links a {
+  color: #737373;
+}
+
+.landingfooter_links a:hover {
+  color: #ffffff;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer__socials a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+.f_contact{
+  color: #c4c1c1;
+  text-decoration: none;
+  position: relative;
+}
+.f_contact::after {
+  content: ''; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: #3C9FFE; 
+  transition: width 0.3s ease; 
+}
+
+.f_contact:hover::after {
+  width: 100%; 
+}
+.footer__socials a:hover {
+  color: #15191d;
+  background: #3C9FFE;
+}
+
+.footer__bar {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #737373;
+  text-align: center;
+}
+
+@media (width > 540px) {
+  .story__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .landingfooter_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 768px) {
+
+  .landingfooter_download__container {
+    margin-top: 10rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .landingfooter_download__content {
+    max-width: 500px;
+    margin-left: auto;
+  }
+
+  .landingfooter_download__content .landingfooter_header {
+    text-align: left;
+  }
+
+  .landingfooter_download__links {
+    justify-content: flex-start;
+  }
+
+  .download__image {
+    display: flex;
+    position: relative;
+    isolation: isolate;
+    height: 100%;
+  }
+
+  .download__image .landingfooter_img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 400px;
+  }
+
+  .news__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .news__container .landingfooter_header {
+    text-align: left;
+  }
+
+  .news__container form {
+    margin-inline-end: unset;
+  }
+
+  .landingfooter_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 768px) { 
+  .landingfooter_header {
+    font-size: 2rem;
+    line-height: 2.5rem; 
+    letter-spacing: -1px; 
+  }
+}
