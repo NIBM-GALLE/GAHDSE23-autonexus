@@ -1,0 +1,353 @@
+
+
+
+.landing-sparepartspage{
+    background: #edf1f7;;
+
+}
+.landingspareparts_container { 
+    padding-inline: 15px; 
+}
+
+.landingspareparts_btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; 
+    color: #1799e5; 
+    font-weight: bold;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+.landingspareparts_btn .bx {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+.landingspareparts_btn:hover .bx {
+    transform: translateX(5px); 
+}
+.landingspareparts_btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, hsla(0, 0%, 100%, 0.4), transparent);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s ease;
+}
+
+.landingspareparts_section {
+    padding-block: 50px;
+}
+.landingspareparts_btn:hover::before {
+    opacity: 1;
+}
+.landingspareparts_h1, .landingspareparts_h2, .landingspareparts_h3 {
+    color: #32324e;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.4;
+}
+
+.landingspareparts_h1 {
+    font-size: 2.125rem;
+    text-transform: uppercase;
+}
+
+.landingspareparts_h2,
+.landingspareparts_h3 {
+    font-weight: 400;
+}
+
+.landingspareparts_h2 {
+    font-size: 1.875rem;
+}
+
+.landingspareparts_h3 {
+    font-size: 1.375rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+.landingspareparts_head-title{
+    text-align: center;
+}
+
+.landingspareparts_featured-car .landingspareparts_title-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px 15px;
+    margin-bottom: 30px;
+}
+
+.landingspareparts_featured-car-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #1f58ca;
+    font-size: 0.875rem;
+}
+
+.landingspareparts_featured-car-link span {
+    transition: 0.5s ease;
+}
+
+.landingspareparts_featured-car-link:is(:hover, :focus) span {
+    color: #32324e;
+}
+
+.landingspareparts_featured-car-link ion-icon {
+    margin-top: 3px;
+    transition: 0.5s ease;
+}
+
+.landingspareparts_featured-car-link:is(:hover, :focus) ion-icon {
+    color: #495af7;
+}
+
+.landingspareparts_featured-car-list {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 30px;
+}
+
+.landingspareparts_featured-car-card {
+    background: linear-gradient(to bottom right, rgba(248, 247, 247, 0.808), rgba(255, 255, 255, 0.87));
+    border: 1px solid rgba(223, 223, 223, 0.4);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 3px 3px 9px rgba(165, 165, 187, 0.2);
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.2); 
+    -webkit-backdrop-filter: blur(12px);
+    transition: all 0.3s ease-in-out;
+}
+
+.landingspareparts_featured-car-card .landingspareparts_card-banner {
+    background: #00000033;
+    aspect-ratio: 3 / 2;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.landingspareparts_featured-car-card .landingspareparts_card-banner > img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.landingspareparts_featured-car-card .landingspareparts_card-content {
+    padding: 20px 10px 10px;
+}
+
+.landingspareparts_featured-car-card .landingspareparts_card-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.landingspareparts_featured-car-card .year {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 3px 12px;
+    border: 2px dashed #8e56f7;
+    border-radius: 14px;
+}
+
+.landingspareparts_featured-car-card .landingspareparts_card-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #0000001a;
+    margin-bottom: 15px;
+}
+
+.landingspareparts_featured-car-card .landingspareparts_card-list-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.landingspareparts_featured-car-card .landingspareparts_card-item-text {
+    color: #4f5d78;
+    font-size: 0.875rem;
+}
+.landingspareparts_card-list-item .bx{
+    font-size: 20px;
+}
+.landingspareparts_featured-car-card .landingspareparts_card-price-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.landingspareparts_featured-car-card .landingspareparts_card-price {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875rem;
+    color: #32324e;
+}
+
+.landingspareparts_featured-car-card .landingspareparts_card-price strong {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.landingspareparts_featured-car-card .landingspareparts_btn:last-child {
+    height: 36px;
+    min-width: 100%;
+}
+
+.landingspareparts_featured-car-card .fav-btn {
+    background: #d9ecfc;
+    color: 55b0ec;
+    height: 36px;
+    width: 36px;
+}
+
+.landingspareparts_featured-car-card .fav-btn ion-icon {
+    font-size: 18px;
+}
+
+.landingspareparts_featured-car-card .fav-btn:is(:hover, :focus) {
+    background: var(--lavender-blush);
+    color: var(--red-salsa);
+}
+
+
+
+@media (min-width: 350px) {
+
+    .landingspareparts_featured-car-card .landingspareparts_card-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .landingspareparts_featured-car-card .landingspareparts_card-price {
+        margin-right: auto;
+    }
+
+    .landingspareparts_featured-car-card .landingspareparts_btn:last-child {
+        min-width: max-content;
+        padding-inline: 15px;
+    }
+}
+
+
+@media (min-width: 580px) {
+    
+
+    .landingspareparts_container {
+        max-width: 540px;
+        margin-inline: auto;
+    }
+
+
+    .header-actions .btlandingspareparts_btnn span {
+        display: block;
+        font-weight: 400;
+        padding-inline: 15px;
+    }
+
+    .header-actions .landingspareparts_btn:first-of-type ion-icon {
+        display: none;
+    }
+
+}
+
+
+
+@media (min-width: 580px) {
+
+}
+
+
+
+@media (min-width: 768px) {
+
+
+    .landingspareparts_container {
+        max-width: 720px;
+    }
+
+    .header-actions {
+        gap: 30px;
+    }
+
+    .header-contact {
+        display: block;
+        text-align: center;
+    }
+
+    .header-contact .contact-link {
+        color: #32324e;
+        font-family: 'Quicksand', sans-serif;
+        font-size: var(--fs-5);
+        line-height: 1.3;
+    }
+
+    .header-contact .contact-link:is(:hover, :focus) {
+        color: #495af7;
+    }
+
+    .header-contact .contact-time {
+        color: #4f5d78;
+        font-size: var(--fs-7);
+    }
+
+
+}
+
+
+@media (min-width: 992px) {
+
+    .landingspareparts_container {
+        max-width: 960px;
+    }
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .landingspareparts_container {
+        max-width: 1170px;
+    }
+
+    .overlay,
+    .nav-toggle-btn {
+        display: none;
+    }
+
+    .navbar,
+    .navbar.active {
+        all: unset;
+    }
+
+    .navbar-link {
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+
+    .navbar-list {
+        display: flex;
+        gap: 50px;
+    }
+
+    .landingspareparts_featured-car-list {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+
+}
+

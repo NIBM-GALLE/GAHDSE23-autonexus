@@ -1,0 +1,85 @@
+
+.landingdownload_section__container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 1rem;
+  }
+  
+  .landingdownload_section__header {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+  
+  
+  .experience__container :is(.section__subheader, .landingdownload_section__header) {
+    text-align: center;
+    max-width: 600px;
+    margin-inline: auto;
+  }
+  
+  .landingdownload_container {
+    overflow: hidden;
+  }
+  
+  .landingdownload_grid {
+    display: grid;
+    padding: 5rem 1rem;
+    background: linear-gradient(to bottom, #3C9FFE, #1E7ED6, #0A5CA8);
+    border-radius: 1rem;
+  }
+  
+  .landingdownload_image {
+    display: none;
+    margin-top: 25px;
+  }
+  
+  .landingdownload_content .landingdownload_section__header {
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .landingdownload_content p {
+    margin-bottom: 2rem;
+    color: #f2f2f2;
+    line-height: 1.75rem;
+  }
+  
+  .landingdownload_links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .landingdownload_links img {
+    max-width: 125px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  @media (width > 768px) {
+  
+    .landingdownload_grid {
+      margin-block: 4rem;
+      padding-inline: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+    }
+  
+    .landingdownload_image {
+      display: flex;
+      position: relative;
+      isolation: isolate;
+    }
+  
+    .landingdownload_image img {
+      position: absolute;
+      max-width: 300px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+    }
+  }
+  
