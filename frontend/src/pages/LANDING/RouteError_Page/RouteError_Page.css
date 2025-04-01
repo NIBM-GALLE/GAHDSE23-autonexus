@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(../../assets/gif.gif);
+    background: url(../../../assets/gif.gif);
     background-position: center;
     background-repeat: no-repeat;
 }
