@@ -1,6 +1,6 @@
 import React from 'react'
 import './Lnading_VehiclePage.css';
-import img1 from '../../assets/car-1.jpg';  
+import img1 from '../../../assets/car-1.jpg';  
 
 function Lnading_VehiclePage() {
   return (

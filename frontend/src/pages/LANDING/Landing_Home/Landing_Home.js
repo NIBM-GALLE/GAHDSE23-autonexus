@@ -1,8 +1,8 @@
 import React from 'react'
 import './Landing_Home.css';
-import img1 from '../../assets/car_img01.png';
-import img2 from '../../assets/play.png';
-import img3 from '../../assets/store.jpg';
+import img1 from '../../../assets/car_img01.png';
+import img2 from '../../../assets/play.png';
+import img3 from '../../../assets/store.jpg';
 
 const Landing_Home = () => {
   return (
