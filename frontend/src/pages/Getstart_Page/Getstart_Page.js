@@ -15,7 +15,7 @@ const Getstart_Page = () => {
                     <h4>Get Start</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Labore reprehenderit veritatis aperiam sed alias quos. Aliquid vero autem sapiente aspernatur?</p>
-                        <a href="/cussignup" class="getstart_btn">Customer</a>
+                        <a href="/cussignin" class="getstart_btn">Customer</a>
                         <a href="#" class="getstart_btn">Spareparts Shop</a>
                         <a href="#" class="getstart_btn">Vehicale Shop</a>
                         <a href="#" class="getstart_btn">Vehicale Owner</a>
