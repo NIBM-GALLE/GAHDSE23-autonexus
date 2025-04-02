@@ -1,5 +1,9 @@
 import React from 'react'
 import './Landing_AboutUs.css';
+
+
+import { FaSearch } from 'react-icons/fa';
+
 import img1 from '../../../assets/carpng1.png';
 
 const Landing_AboutUs = () => {
@@ -8,6 +12,18 @@ const Landing_AboutUs = () => {
   <section class="section__container steps__container" id="rent">
       <p class="section__subheader">HOW IT WORKS</p>
       <h2 class="section__header">Autonexus following 3 working steps</h2>
+      <div >
+        <div className="landingabout_search_container">
+                      <input 
+                        type="text" 
+                        className="landingabout_search" 
+                        placeholder="Search..." 
+                      />
+                      <button className="landingabout_search_button">
+                        <FaSearch />
+                      </button>
+       </div>
+      </div>
       <div class="steps__grid">
         <div class="steps__card">
           <span><i class='bx bx-search-alt-2'></i></span>
