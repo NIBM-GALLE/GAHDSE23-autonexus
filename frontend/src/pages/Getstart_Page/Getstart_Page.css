@@ -1,13 +1,12 @@
-
 .getstart_contanier {
     width: 100%;
     height: 100vh;
-    background-color: #f9f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
+    background: linear-gradient(to right, #090979, #56dbf6); /* Corrected */
 }
 
 .getstart_contanier::before {
@@ -17,17 +16,17 @@
     width: 50%;
     top: 0;
     left: 0;
-    background: linear-gradient(to bottom, #3C9FFE, #1E7ED6, #0A5CA8);
+ 
 }
 
-.getstart_contanier .getstart_hero {
+.getstart_hero {
     position: relative;
     z-index: 10;
     height: 85vh;
     width: 75%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(25px);
-    border: 3px solid #3C9FFE;
+    border: 3px solid #033360;
     border-radius: 20px;
     box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
     padding: 0 40px 0 80px;
@@ -73,6 +72,7 @@
 }
 
 .getstart_hero .getstart_content .getstart_div-text {
+    margin-top: 100px;
     width: 40%;
 }
 
@@ -83,28 +83,29 @@
 }
 
 .getstart_hero .getstart_content .getstart_div-text h4 {
-    color: #454242;
+    color: #b5fffb;
     font-size: 24px;
     margin-bottom: 10px;
 }
 
 .getstart_hero .getstart_content .getstart_div-text p {
-    color: #454242;
+    color: #b5fffb;
     margin-bottom: 30px;
     font-size: 18px;
 }
 
 .getstart_hero .getstart_content .getstart_div-text .getstart_btn {
     display: inline-block;
-    padding: 10px 15px;
-    background-color: #1F53FF;
-    border: 2px solid #1FADFF;
+    padding: 20px 15px;
+    background-color: #052055;
+    border: 2px solid #254659;
     color: white;
     border-radius: 5px;
     font-weight: bold;
     text-decoration: none;
     margin-right: 10px;
     transition: 0.3s;
+    border-radius: 20px;
 }
 
 .getstart_hero .getstart_content .getstart_div-text .getstart_btn:hover {

@@ -13,8 +13,7 @@ const Getstart_Page = () => {
                 <div class="getstart_div-text">
                     <h1>AutoNexus</h1>
                     <h4>Get Start</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Labore reprehenderit veritatis aperiam sed alias quos. Aliquid vero autem sapiente aspernatur?</p>
+                    <p className='getstart_div_text12'>Embark on an unforgettable and exhilarating journey with <b>Autonexus</b> where innovation meets adventure, and every ride becomes a masterpiece!"</p>
                         <a href="/cussignin" class="getstart_btn">Customer</a>
                         <a href="#" class="getstart_btn">Spareparts Shop</a>
                         <a href="#" class="getstart_btn">Vehicale Shop</a>
