@@ -1,9 +1,9 @@
 import React from 'react';
 import './Landing_Cards01.css';
-import img1 from '../../assets/range-1.jpg';
-import img2 from '../../assets/range-2.jpg';
-import img3 from '../../assets/range-3.jpg';
-import img4 from '../../assets/range-4.jpg';
+import img1 from '../../../assets/range-1.jpg';
+import img2 from '../../../assets/range-2.jpg';
+import img3 from '../../../assets/range-3.jpg';
+import img4 from '../../../assets/range-4.jpg';
 
 const Landing_Cards01 = () => {
   return (

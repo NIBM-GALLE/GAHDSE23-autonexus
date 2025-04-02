@@ -1,8 +1,8 @@
 import React from 'react';
 import './Getstart_Page.css';
-import img1 from '../../assets/car_img01.png';
-import img2 from '../../assets/play.png';
-import img3 from '../../assets/store.jpg';
+import img1 from '../../../assets/car_img01.png';
+import img2 from '../../../assets/play.png';
+import img3 from '../../../assets/store.jpg';
 
 const Getstart_Page = () => {
   return (

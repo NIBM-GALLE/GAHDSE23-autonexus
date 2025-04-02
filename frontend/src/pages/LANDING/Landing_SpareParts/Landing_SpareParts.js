@@ -1,6 +1,6 @@
 import React from 'react'
 import './Landing_SpareParts.css';
-import img1 from '../../assets/spares01.jpg';
+import img1 from '../../../assets/spares01.jpg';
 
 const Landing_SpareParts = () => {
   return (
