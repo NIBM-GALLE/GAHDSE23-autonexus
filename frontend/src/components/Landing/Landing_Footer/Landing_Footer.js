@@ -1,8 +1,8 @@
 import React from 'react';
 import './Landing_Footer.css';
-import img1 from '../../assets/google.png';
-import img2 from '../../assets/apple.png';
-import img3 from '../../assets/download.png';
+import img1 from '../../../assets/google.png';
+import img2 from '../../../assets/apple.png';
+import img3 from '../../../assets/download.png';
 
 const Landing_Footer = () => {
   return (

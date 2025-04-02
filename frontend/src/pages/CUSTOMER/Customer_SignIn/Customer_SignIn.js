@@ -1,6 +1,6 @@
 import React from 'react';
 import './Customer_SignIn.css';
-import img1 from '../../assets/car_img01.png';
+import img1 from '../../../assets/car_img01.png';
 
 const Customer_SignIn = () => {
   return (
