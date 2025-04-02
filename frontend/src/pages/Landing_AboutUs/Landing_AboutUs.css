@@ -1,3 +1,41 @@
+
+.landingabout_search_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.landingabout_search {
+  width: 100%;
+  padding: 1.25rem;
+  font-size: 1rem;
+  border: 3px solid rgb(0, 0, 155);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.landingabout_search:focus {
+  border-color: #1799e5;
+  box-shadow: 0 0 8px rgb(23, 155, 231);
+}
+
+.landingabout_search_button {
+  position: absolute;
+  top: 36%;
+  left: 85%;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.7rem;
+  color: #003591;
+}
+
 .about{
     background: #edf1f7;
   }
@@ -19,6 +57,7 @@
     font-size: 2.5rem;
     font-weight: 800;
     color: #0f172a;
+    margin-bottom: 2rem;
   }
   
   .btn {

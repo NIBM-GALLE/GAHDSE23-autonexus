@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
+
+
 .landinghome {
     position: relative;
     background-image: url('../../assets/back_pg2.jpg');
@@ -68,7 +70,7 @@
     font-weight: 800;
     color: #454242;
     line-height: 3.25rem;
-    text-align: justify;
+    text-align:start;
     margin-top: 2rem;
 }
 

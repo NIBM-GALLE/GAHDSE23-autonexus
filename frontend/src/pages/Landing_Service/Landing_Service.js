@@ -2,8 +2,10 @@ import React from 'react'
 import './Landing_Service.css';
 import img1 from '../../assets/carpng6.png';
 
+
 export const Landing_Service = () => {
   return (
+
     <div className="landingservice__service" id="service">
       <section className="landingservice__section__container landingservice__experience__container" id="ride">
         <p className="landingservice__section__subheader">CUSTOMER EXPERIENCE</p>

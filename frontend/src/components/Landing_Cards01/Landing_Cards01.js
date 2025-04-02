@@ -8,7 +8,7 @@ import img4 from '../../assets/range-4.jpg';
 const Landing_Cards01 = () => {
   return (
     <div className="landingcards01_container" id="">
-      <section className="landingcards01_section" id="about">
+      <section className="landingcards01_section" id="">
         <h2 className="landingcards01_header">WIDE RANGE OF VEHICLES</h2>
         <div className="landingcards01_grid">
           <div className="landingcards01_card">
