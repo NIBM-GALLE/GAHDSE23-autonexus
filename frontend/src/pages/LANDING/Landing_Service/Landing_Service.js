@@ -1,6 +1,6 @@
 import React from 'react'
 import './Landing_Service.css';
-import img1 from '../../assets/carpng6.png';
+import img1 from '../../../assets/carpng6.png';
 
 
 export const Landing_Service = () => {

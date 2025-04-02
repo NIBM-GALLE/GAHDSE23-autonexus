@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../../assets/store.jpg';
-import img2 from '../../assets/play.png';
-import img3 from '../../assets/download.png';
+import img1 from '../../../assets/store.jpg';
+import img2 from '../../../assets/play.png';
+import img3 from '../../../assets/download.png';
 import './Landing_Download.css';
 
 const Landing_Download = () => {

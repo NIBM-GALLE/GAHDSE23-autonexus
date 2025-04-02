@@ -1,8 +1,12 @@
 import React from 'react'
 import './Landing_AboutUs.css';
+<<<<<<< HEAD:frontend/src/pages/Landing_AboutUs/Landing_AboutUs.js
 import img1 from '../../assets/carpng1.png';
 import { FaSearch } from 'react-icons/fa';
 
+=======
+import img1 from '../../../assets/carpng1.png';
+>>>>>>> c3a6f10a4dc304e1b43ddc9f55aae96109f0d909:frontend/src/pages/LANDING/Landing_AboutUs/Landing_AboutUs.js
 
 const Landing_AboutUs = () => {
   return (
