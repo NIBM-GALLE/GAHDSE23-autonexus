@@ -1,0 +1,913 @@
+/* Main Container */
+.customers_profile_div {
+    margin: 40px 0px;
+    /* background-color: #385591; */
+  }
+  
+  /* Table Structure (Renamed from .tb, .tr, .td) */
+  .customers_profile_table {
+    display: table;
+    width: 100%;
+  }
+  
+  .customers_profile_table_row {
+    display: table-row;
+  }
+  
+  .customers_profile_table_data {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  /* Global Styles */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Main Wrapper */
+  .customers_profile_main {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #e9ebee;
+    box-shadow: 0px 8px 30px #1d2d4f;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  /* Device Bar (Top) */
+  .customers_profile_device_bar_1 {
+    text-align: right;
+    padding: 6px;
+    background-color: #000;
+    overflow: hidden;
+  }
+  
+  .customers_profile_device_bar_1 button {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .customers_profile_device_bar_1 button:first-child {
+    background-color: #f35d5b;
+  }
+  
+  .customers_profile_device_bar_1 button:nth-child(2) {
+    background-color: #f6bd3a;
+  }
+  
+  .customers_profile_device_bar_1 button:last-child {
+    background-color: #44cc45;
+  }
+  
+  /* Header Styles */
+  header {
+    padding: 15px 20px;
+    background-color: #4267b2;
+  }
+  
+  .customers_profile_logo {
+    width: 30px;
+  }
+  
+  .customers_profile_logo a {
+    display: block;
+  }
+  
+  .customers_profile_logo a i {
+    font-size: 34px;
+    color: #fff;
+  }
+  
+  .customers_profile_search_form form {
+    position: relative;
+    width: 280px;
+    font-size: 16px;
+    padding: 8px 15px;
+    padding-right: 37px;
+    background-color: #3b5ca0;
+    border-radius: 20px;
+    margin-left: 15px;
+  }
+  
+  .customers_profile_search_form form input {
+    width: 100%;
+    color: #fff;
+    border: 0;
+    background-color: transparent;
+  }
+  
+  .customers_profile_search_form form button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    color: #f1f1f1;
+    height: 22px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  
+  .customers_profile_search_form form button i {
+    font-size: 22px;
+  }
+  
+  .customers_profile_name_label {
+    width: 1px;
+    color: #fff;
+    font-weight: bold;
+    white-space: pre;
+    padding-right: 20px;
+  }
+  
+  .customers_profile_name_label span {
+    padding-right: 28px;
+    border-right: 1px solid #35518b;
+  }
+  
+  .customers_profile_icon_links {
+    width: 1px;
+  }
+  
+  .customers_profile_menu_td {
+    padding-right: 20px;
+  }
+  
+  .customers_profile_menu_td span {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .customers_profile_menu_td span.customers_profile_menu_active:before {
+    content: "5";
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 4px 3px 4px;
+    background-color: #ff1e0e;
+    border-radius: 3px;
+    line-height: 1;
+  }
+  
+  .customers_profile_icon_links i {
+    color: #fff;
+    font-size: 24px;
+    padding: 0px 8px;
+    vertical-align: middle;
+  }
+  
+  .customers_profile_profile_link {
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .customers_profile_profile_link img {
+    width: 100%;
+  }
+  
+  /* Profile Banner Section */
+  .customers_profile_upper {
+    position: relative;
+  }
+  
+  .customers_profile_details {
+    position: absolute;
+    left: 59px;
+    bottom: 0px;
+    right: 0px;
+    height: 180px;
+    z-index: 2;
+  }
+  
+  .customers_profile_banner_image {
+    height: 360px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .customers_profile_banner_image img {
+    width: 100%;
+
+  }
+  
+  .customers_profile_pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-top: 28px;
+    overflow: hidden;
+    box-shadow: 0 0 0 5px #fff;
+  }
+  
+  .customers_profile_pic img {
+    width: 100%;
+  }
+  
+  .customers_profile_username {
+    position: absolute;
+    top: 120px;
+    left: 208px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .customers_profile_menu_buttons {
+    position: absolute;
+    right: 56px;
+    bottom: 20px;
+    width: 211px;
+  }
+  
+  .customers_profile_menu_buttons .customers_profile_table_data {
+    padding: 0 8px;
+  }
+  
+  .customers_profile_menu_button {
+    cursor: pointer;
+    color: #0e0e0e;
+    font-size: 14px;
+    white-space: pre;
+    padding: 5px 8px 6px 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+  }
+  
+  .customers_profile_menu_button i {
+    font-size: 16px;
+    margin-right: 1px;
+    vertical-align: middle;
+  }
+  
+  .customers_profile_menu_button span {
+    position: relative;
+    top: 1px;
+  }
+  
+  .customers_profile_edit_profile {
+    position: absolute;
+    right: 20px;
+    bottom: 21px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  
+  .customers_profile_edit_profile i {
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .customers_profile_black_gradient {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 71%, rgba(0, 0, 0, 0.53));
+    z-index: 1;
+  }
+  
+  /* Main Content Area */
+  .customers_profile_main_content {
+    padding: 55px 0px 0px 55px;
+  }
+  
+  .customers_profile_left_column,
+  .customers_profile_middle_column,
+  .customers_profile_right_column {
+    vertical-align: top;
+  }
+  
+  .customers_profile_left_column {
+    width: 340px;
+    padding-top: 6px;
+  }
+  
+  .customers_profile_content {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px #ddd;
+  }
+  
+  .customers_profile_left_margin {
+    margin-top: 28px;
+  }
+  
+  .customers_profile_label_icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 2px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+  
+  .customers_profile_intro_icon {
+    background-image: url("https://imagizer.imageshack.com/img922/7749/C8tmwX.png");
+    background-position: 0 -87px;
+  }
+  
+  .customers_profile_photos_icon {
+    background-image: url("https://imagizer.imageshack.com/img923/7847/sRapnM.png");
+    background-position: 0 0;
+  }
+  
+  .customers_profile_know_icon {
+    background-image: url("https://imagizer.imageshack.com/img922/5617/QpPVKn.png");
+  }
+  
+  .customers_profile_content_label {
+    position: relative;
+    padding-right: 24px;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .customers_profile_content_label span {
+    position: relative;
+    top: 2px;
+    color: #707070;
+    font-size: 18px;
+  }
+  
+  .customers_profile_label_action {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+  }
+  
+  .customers_profile_label_action i {
+    display: block;
+    color: #ccc;
+    font-size: 18px;
+  }
+  
+  .customers_profile_down_icon i {
+    font-size: 24px;
+  }
+  
+  .customers_profile_intro_box {
+    color: #797979;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .customers_profile_user_location{
+    text-align: justify;
+  }
+  .customers_profile_user_location i {
+    color: #707070;
+    font-size: 16px;
+    margin-left: -3px;
+    margin-right: 2px;
+    margin-top: -1px;
+    vertical-align: middle;
+  }
+  
+  .customers_profile_user_location a {
+    position: relative;
+    top: 1px;
+    color: #2196f3;
+  }
+  
+  .customers_profile_photos {
+    padding: 2px;
+    margin: 15px -20px -20px -20px;
+  }
+  
+  .customers_profile_photos .customers_profile_table_data {
+    width: 33.333%;
+    height: 112px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    background-position: 50% 25%;
+    background-size: cover;
+  }
+  
+  .customers_profile_photos .customers_profile_table .customers_profile_table_row:nth-child(1) .customers_profile_table_data:nth-child(1) {
+    background-image: url("https://placehold.co/112x112");
+  }
+  
+  .customers_profile_photos .customers_profile_table .customers_profile_table_row:nth-child(1) .customers_profile_table_data:nth-child(2) {
+    background-image: url("https://placehold.co/112x112");
+  }
+  
+  .customers_profile_photos .customers_profile_table .customers_profile_table_row:nth-child(1) .customers_profile_table_data:nth-child(3) {
+    background-image: url("https://placehold.co/112x112");
+  }
+  
+  .customers_profile_photos .customers_profile_table .customers_profile_table_row:nth-child(2) .customers_profile_table_data:nth-child(1) {
+    background-image: url("https://placehold.co/112x112");
+  }
+  
+  .customers_profile_photos .customers_profile_table .customers_profile_table_row:nth-child(2) .customers_profile_table_data:nth-child(2) {
+    background-image: url("https://placehold.co/112x112");
+  }
+  
+  .customers_profile_photos .customers_profile_table .customers_profile_table_row:nth-child(2) .customers_profile_table_data:nth-child(3) {
+    background-image: url("https://placehold.co/112x112");
+  }
+  
+  .customers_profile_photos .customers_profile_table .customers_profile_table_row:nth-child(3) .customers_profile_table_data:nth-child(1) {
+    background-image: url("https://placehold.co/112x112");
+  }
+  
+  .customers_profile_photos .customers_profile_table .customers_profile_table_row:nth-child(3) .customers_profile_table_data:nth-child(2) {
+    background-image: url("https://placehold.co/112x112");
+  }
+  
+  .customers_profile_photos .customers_profile_table .customers_profile_table_row:nth-child(3) .customers_profile_table_data:nth-child(3) {
+    background-image: url("https://placehold.co/112x112");
+  }
+  
+  .customers_profile_know_number {
+    color: #b8b8b8;
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .customers_profile_question_ad_container {
+    padding: 2px;
+  }
+  
+  .customers_profile_question_ad {
+    display: block;
+    padding: 8px;
+    border: 1px solid #eeeeee;
+    background-color: #fafafa;
+    border-radius: 4px;
+  }
+  
+  .customers_profile_question_ad img {
+    display: inline;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  .customers_profile_question_ad span {
+    position: relative;
+    top: 1px;
+    color: #242424;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .customers_profile_add_question {
+    color: #858585;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #fff;
+    border-color: #f1f1f1;
+  }
+  
+  .customers_profile_add_question i {
+    font-size: 17px;
+    margin-right: -3px;
+    vertical-align: middle;
+  }
+  
+  .customers_profile_add_question span {
+    color: #858585;
+    font-size: 12.4px;
+    position: relative;
+    top: -1px;
+  }
+  
+  .customers_profile_terms_box {
+    font-size: 14px;
+    color: #686868;
+    padding-top: 24px;
+    line-height: 18px;
+  }
+  
+  .customers_profile_terms_box a {
+    margin-right: 5px;
+  }
+  
+  .customers_profile_terms_box a,
+  .customers_profile_terms_more {
+    color: #999;
+  }
+  
+  .customers_profile_terms_more {
+    cursor: pointer;
+  }
+  
+  .customers_profile_terms_more i {
+    font-size: 15px;
+    vertical-align: middle;
+  }
+  
+  .customers_profile_copyright {
+    margin-top: 4px;
+  }
+  
+  .customers_profile_middle_column {
+    padding: 0px 55px;
+  }
+  
+  .customers_profile_middle_margin {
+    margin-bottom: 28px;
+  }
+  
+  .customers_profile_profile_tabs {
+    position: relative;
+    font-size: 13px;
+    color: #919191;
+    text-align: center;
+    padding: 13px 20px;
+    margin-top: -64px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px #ddd;
+    z-index: 3;
+  }
+  
+  .customers_profile_profile_tabs_menu .customers_profile_table_data {
+    width: 16.6666667%;
+    cursor: pointer;
+  }
+  
+  .customers_profile_profile_tabs_menu .customers_profile_table_data.customers_profile_active {
+    color: #ee6000;
+  }
+  
+  .customers_profile_profile_tabs_menu span {
+    position: relative;
+  }
+  
+  .customers_profile_profile_tabs_menu .customers_profile_table_data.customers_profile_active span:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -13px;
+    height: 4px;
+    background-color: #ee6000;
+  }
+  
+  .customers_profile_profile_tabs_menu .customers_profile_table_data i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .customers_profile_profile_tab_menu {
+    width: 1px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .customers_profile_profile_tab_menu i {
+    margin-right: -4px;
+  }
+  
+  .customers_profile_composer {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px #ddd;
+  }
+  
+  .customers_profile_composer_tabs_cover {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ececec;
+  }
+  
+  .customers_profile_composer_tabs {
+    width: auto;
+    color: #919191;
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data {
+    position: relative;
+    width: 1px;
+    padding: 0px 15px;
+    white-space: pre;
+    cursor: pointer;
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 1px;
+    height: 12px;
+    margin-top: -6px;
+    background-color: #eaeaea;
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data:first-child {
+    padding-left: 0px;
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data:last-child {
+    padding-right: 0;
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data:last-child:after {
+    display: none;
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data span {
+    position: relative;
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data.customers_profile_active {
+    color: #373737;
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data.customers_profile_active span:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    border-color: transparent #ececec #ececec transparent;
+    margin: 0 auto;
+    background-color: #fff;
+    transform: rotateZ(45deg);
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data i {
+    font-size: 21px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  
+  .customers_profile_composer_tabs .customers_profile_table_data span {
+    position: relative;
+    top: 1px;
+    font-size: 15px;
+  }
+  
+  .customers_profile_composer_main {
+    position: relative;
+    padding-top: 15px;
+  }
+  
+  .customers_profile_profile_composer_image {
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .customers_profile_profile_composer_image img {
+    display: block;
+    width: 100%;
+  }
+  
+  .customers_profile_composer_input {
+    padding-left: 20px;
+  }
+  
+  .customers_profile_composer_input input {
+    width: 100%;
+    font-size: 20px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .customers_profile_composer_main input::placeholder {
+    color: #666;
+  }
+  
+  .customers_profile_insert_emoji {
+    position: absolute;
+    right: -2px;
+    bottom: -10px;
+    cursor: pointer;
+  }
+  
+  .customers_profile_insert_emoji i {
+    display: block;
+    color: #ccced6;
+    font-size: 21px;
+  }
+  
+  .customers_profile_post {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px #ddd;
+  }
+  
+  .customers_profile_post_profile_pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .customers_profile_post_profile_pic img {
+    width: 100%;
+    display: block;
+    border: 0;
+  }
+  
+  .customers_profile_post_header {
+    vertical-align: top;
+    padding-left: 20px;
+  }
+  
+  .customers_profile_post_user_info {
+    color: #5a5959;
+    font-size: 15px;
+    margin-bottom: 7px;
+    text-align: justify;
+  }
+  
+  .customers_profile_post_user_info a {
+    color: #4267b2;
+  }
+  
+  .customers_profile_post_date {
+    color: #a8a8a8;
+    font-size: 13px;
+    text-align: justify;
+  }
+  
+  .customers_profile_post_date i {
+    font-size: 14px;
+    margin-right: 2px;
+  }
+  
+  .customers_profile_post_date span {
+    position: relative;
+    top: -2px;
+  }
+  
+  .customers_profile_post_options {
+    position: relative;
+    right: -3px;
+    width: 1px;
+    color: #ccc;
+    cursor: pointer;
+    vertical-align: top;
+  }
+  
+  .customers_profile_post_content_view {
+    display: block;
+    margin: 20px -20px;
+    cursor: pointer;
+  }
+  
+  .customers_profile_post_actions {
+    overflow: hidden;
+  }
+  
+  .customers_profile_post_action {
+    width: 24px;
+    height: 24px;
+    color: #a3a6aa;
+    cursor: pointer;
+  }
+  
+  .customers_profile_post_action span {
+    position: relative;
+    top: 1px;
+    width: 20px;
+    font-size: 15px;
+    color: #a3a6aa;
+  }
+  
+  .customers_profile_like {
+    margin-right: 36px;
+  }
+  
+  .customers_profile_like,
+  .customers_profile_comment {
+    width: 50px;
+    float: left;
+  }
+  
+  .customers_profile_post_action i {
+    vertical-align: middle;
+  }
+  
+  .customers_profile_like i,
+  .customers_profile_comment i {
+    margin-right: 6px;
+  }
+  
+  .customers_profile_share {
+    float: right;
+    transform: rotateY(180deg);
+    margin-right: -1px;
+  }
+  
+  .customers_profile_loading {
+    text-align: center;
+    padding: 40px 0px;
+  }
+  
+  .customers_profile_loading i {
+    color: #4267b2;
+    font-size: 32px;
+    display: block;
+  }
+  
+  /* Right Column (Chat Bar) */
+  .customers_profile_right_column {
+    position: relative;
+    width: 150px;
+  }
+  
+  .customers_profile_chat_bar {
+    position: absolute;
+    top: -55px;
+    right: 55px;
+    bottom: 0px;
+    left: 0px;
+  }
+  
+  .customers_profile_chat_label {
+    color: #3a5795;
+    font-size: 16px;
+    text-align: center;
+    margin: 23px 0px;
+  }
+  
+  .customers_profile_chat_label i {
+    font-size: 18px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  
+  .customers_profile_chat_label span {
+    position: relative;
+    top: 2px;
+  }
+  
+  .customers_profile_online_contact {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 28px auto 0 auto;
+    border-radius: 50%;
+  }
+  
+  .customers_profile_contacts .customers_profile_online_contact:first-child {
+    margin-top: 0px;
+  }
+  
+  .customers_profile_online_contact img {
+    border-radius: 50%;
+  }
+  
+  .customers_profile_online_contact.customers_profile_active:after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: #2ecd18;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px #e9ebee;
+    z-index: 1;
+  }
+  
+  .customers_profile_contact_settings {
+    margin-top: 55px;
+  }
+  
+  .customers_profile_contact_settings i {
+    color: #3a5795;
+    padding: 13px;
+    background-color: #d8e4ff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Footer (Device Bar) */
+  .customers_profile_device_bar_2 {
+    padding: 9px 0px 13px 0px;
+    background-color: #000;
+  }
+  
+  .customers_profile_device_bar_2 i {
+    display: block;
+    width: 40px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+  }
