@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 // import "remixicon/fonts/remixicon.css";
-import "./Landing_Navbar.css"; // Ensure you have the appropriate styles
+import "./Landing_Navbar.css"; 
 
 const Landing_Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
