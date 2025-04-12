@@ -8,6 +8,7 @@ import Customer_SignIn from "./pages/CUSTOMER/Customer_SignIn/Customer_SignIn";
 import Customers_Profile from "./pages/CUSTOMER/Customers_Profile/Customers_Profile";
 import Product_Card01 from "./components/Product/Product_Card01/Product_Card01";
 import Customer_Home from "./pages/CUSTOMER/Customer_Home/Customer_Home";
+import Customer_Register from "./pages/CUSTOMER/Customer_Register/Customer_Register";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing_Page/>} />
         <Route path="/getstart" element={<Getstart_Page/>} />
+        <Route path="/cussignup" element={<Customer_Register/>} />
         <Route path="/cussignin" element={<Customer_SignIn/>} />
         <Route path="/cusprofile" element={<Customers_Profile/>} />
         <Route path="/*" element={<RouteError_Page/>} />

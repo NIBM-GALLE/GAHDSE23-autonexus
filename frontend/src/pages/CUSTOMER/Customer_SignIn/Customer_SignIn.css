@@ -236,7 +236,8 @@
   height: 41px;
   font-weight: 600;
   font-size: 0.8rem;
+  position: relative;
+  z-index: 10; 
+  pointer-events: auto; 
 }
-/* .name{
 
-} */
