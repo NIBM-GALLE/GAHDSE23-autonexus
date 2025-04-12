@@ -1,19 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Customer_Home.css";
+import axios from 'axios'; 
 import img1 from "../../../assets/range-1.jpg";
-import img2 from "../../../assets/banner001.jpg"; // Optional: not used in component
+import img2 from "../../../assets/banner001.jpg"; 
+import Customer_Navbar from '../../../components/Customer/Customer_Navbar/Customer_Navbar';
 
 const Customer_Home = () => {
+  const [userData, setUserData] = useState(null);
+
+    const fetchUserData = async () => {
+      try {
+        const token = localStorage.getItem('token'); 
+        const response = await axios.get('http://localhost:5000/api/user', {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+        setUserData(response.data); 
+      } catch (error) {
+        console.error('Error fetching user data:', error);
+      }
+    };
+
+    useEffect(() => {
+      fetchUserData(); 
+    }, []);
+
   return (
     <div className="customer_home_container">
+      <Customer_Navbar />
     <div className="customer_home">
       <header className="customer_home_header">
         <div className="customer_home_top-bar">
-          <span>FREE SHIPPING THIS WEEK ORDER OVER $55</span>
+          <span>Hello! {userData ? userData.username : 'Loading...'}</span>
           <span>USD $ | ENGLISH</span>
         </div>
         <div className="customer_home_main-header">
-          <div className="customer_home_logo">Anon</div>
+          <div className="customer_home_logo">Welcome</div>
           <nav className="customer_home_nav-menu">
             <ul className="customer_home_nav-list">
               <li className="customer_home_nav-item"><a href="#">Home</a></li>
@@ -23,7 +46,7 @@ const Customer_Home = () => {
               <li className="customer_home_nav-item"><a href="#">Jewelry</a></li>
               <li className="customer_home_nav-item"><a href="#">Perfume</a></li>
               <li className="customer_home_nav-item"><a href="#">Blog</a></li>
-              <li className="customer_home_nav-item"><a href="#">Hot Offers</a></li>
+              <li className="customer_home_nav-item"><a href="#">Logout</a></li>
             </ul>
           </nav>
         </div>
