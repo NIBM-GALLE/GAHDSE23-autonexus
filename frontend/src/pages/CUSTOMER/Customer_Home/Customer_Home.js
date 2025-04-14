@@ -3,7 +3,9 @@ import "./Customer_Home.css";
 import axios from 'axios'; 
 import img1 from "../../../assets/range-1.jpg";
 import img2 from "../../../assets/banner001.jpg"; 
-import Customer_Navbar from '../../../components/Customer/Customer_Navbar/Customer_Navbar';
+import Customer_Navbar from '../../../components/CUSTOMER/Customer_Navbar/Customer_Navbar';
+import Customer_Profle_Card from '../../../components/CUSTOMER/Customer_Profle_Card/Customer_Profle_Card';
+import Customer_home_Cards01 from '../../../components/CUSTOMER/Customer_home_Cards01/Customer_home_Cards01';
 
 const Customer_Home = () => {
   const [userData, setUserData] = useState(null);
@@ -74,25 +76,25 @@ const Customer_Home = () => {
           <h3 className="customer_home_sidebar-title">Category</h3>
           <div className="customer_home_sidebar-card-list">
             <div className="customer_home_sidebar-card">
-              <i className="fas fa-tshirt"></i> Clothes
+              <i className="fas fa-tshirt"></i> Cars
             </div>
             <div className="customer_home_sidebar-card">
-              <i className="fas fa-shoe-prints"></i> Footwear
+              <i className="fas fa-shoe-prints"></i> Cars
             </div>
             <div className="customer_home_sidebar-card">
-              <i className="fas fa-gem"></i> Jewelry
+              <i className="fas fa-gem"></i> Cars
             </div>
             <div className="customer_home_sidebar-card">
-              <i className="fas fa-spray-can"></i> Perfume
+              <i className="fas fa-spray-can"></i> Cars
             </div>
             <div className="customer_home_sidebar-card">
-              <i className="fas fa-paint-brush"></i> Cosmetics
+              <i className="fas fa-paint-brush"></i> Cars
             </div>
             <div className="customer_home_sidebar-card">
-              <i className="fas fa-glasses"></i> Glasses
+              <i className="fas fa-glasses"></i> Cars
             </div>
             <div className="customer_home_sidebar-card">
-              <i className="fas fa-shopping-bag"></i> Bags
+              <i className="fas fa-shopping-bag"></i> Cars
             </div>
           </div>
 
@@ -100,44 +102,45 @@ const Customer_Home = () => {
           <div className="customer_home_sidebar-card-list">
             <div className="customer_home_sidebar-card">
               <img src={img1} alt="Baby Fabric Shoes" />
-              <span>Baby Fabric Shoes - $4.00</span>
+              <span>Cars, New Motor Cars - $4.00</span>
             </div>
             <div className="customer_home_sidebar-card">
               <img src={img1} alt="Men's Hoodie T-Shirt" />
-              <span>Men's Hoodie T-Shirt - $7.00</span>
+              <span>Cars, New Motor Cars - $7.00</span>
             </div>
             <div className="customer_home_sidebar-card">
               <img src={img1} alt="Girls T-Shirt" />
-              <span>Girls T-Shirt - $3.00</span>
+              <span>Cars, New Motor Cars - $3.00</span>
             </div>
             <div className="customer_home_sidebar-card">
               <img src={img1} alt="Woolen Hat for Men" />
-              <span>Woolen Hat for Men - $12.00</span>
+              <span>Cars, New Motor Cars - $12.00</span>
             </div>
           </div>
         </div>
 
         <section className="customer_home_product-section">
+          <Customer_Profle_Card/>
           <div className="customer_home_section-title">New Arrivals</div>
           <div className="customer_home_product-grid">
             <div className="customer_home_product-card">
               <img src={img1} alt="Relaxed Short Full Sleeve" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Relaxed Short Full Sleeve</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$45.00 <del className="customer_home_product-old-price">$120.00</del></p>
             </div>
             <div className="customer_home_product-card">
               <img src={img1} alt="Girls Pnk Embro Design" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Girls Pnk Embro Design</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$61.00 <del className="customer_home_product-old-price">$90.00</del></p>
             </div>
             <div className="customer_home_product-card">
               <img src={img1} alt="Black Floral Wrap Midi" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Black Floral Wrap Midi</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$76.00 <del className="customer_home_product-old-price">$250.00</del></p>
             </div>
             <div className="customer_home_product-card">
               <img src={img1} alt="Pure Garment Dyed" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Pure Garment Dyed</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$88.00 <del className="customer_home_product-old-price">$310.00</del></p>
             </div>
           </div>
@@ -146,22 +149,22 @@ const Customer_Home = () => {
           <div className="customer_home_product-grid">
             <div className="customer_home_product-card">
               <img src={img1} alt="Running & Trekking Shoes" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Running & Trekking Shoes</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$49.00 <del className="customer_home_product-old-price">$150.00</del></p>
             </div>
             <div className="customer_home_product-card">
               <img src={img1} alt="Trekking & Running" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Trekking & Running</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$78.00 <del className="customer_home_product-old-price">$360.00</del></p>
             </div>
             <div className="customer_home_product-card">
               <img src={img1} alt="Women's Party Wear" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Women's Party Wear</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$94.00 <del className="customer_home_product-old-price">$420.00</del></p>
             </div>
             <div className="customer_home_product-card">
               <img src={img1} alt="Sports Claw Women's Shoes" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Sports Claw Women's Shoes</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$54.00 <del className="customer_home_product-old-price">$650.00</del></p>
             </div>
           </div>
@@ -170,22 +173,22 @@ const Customer_Home = () => {
           <div className="customer_home_product-grid">
             <div className="customer_home_product-card">
               <img src={img1} alt="Pocket Watch Leather" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Pocket Watch Leather</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$50.00 <del className="customer_home_product-old-price">$340.00</del></p>
             </div>
             <div className="customer_home_product-card">
               <img src={img1} alt="Silver Deer Heart Necklace" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Silver Deer Heart Necklace</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$84.00 <del className="customer_home_product-old-price">$390.00</del></p>
             </div>
             <div className="customer_home_product-card">
               <img src={img1} alt="Titan 100 Ml Perfume" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Titan 100 Ml Perfume</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$42.00 <del className="customer_home_product-old-price">$100.00</del></p>
             </div>
             <div className="customer_home_product-card">
               <img src={img1} alt="Men's Leather Reversible Belt" className="customer_home_product-image" />
-              <h4 className="customer_home_product-name">Men's Leather Reversible Belt</h4>
+              <h4 className="customer_home_product-name">New Motor Cars</h4>
               <p className="customer_home_product-price">$24.00 <del className="customer_home_product-old-price">$100.00</del></p>
             </div>
           </div>
@@ -194,7 +197,7 @@ const Customer_Home = () => {
             <img src={img1} alt="Deal of the day" className="customer_home_deal-image" />
             <div className="customer_home_deal-content">
               <h3 className="customer_home_deal-title">Deal Of The Day</h3>
-              <p className="customer_home_deal-description"><strong>SHAMPOO, CONDITIONER & FACEWASH PACKS</strong></p>
+              <p className="customer_home_deal-description"><strong>Cars, New Motor Cars</strong></p>
               <p className="customer_home_deal-price"><span className="customer_home_deal-current-price">$150.00</span> <del className="customer_home_deal-old-price">$200.00</del></p>
               <button className="customer_home_deal-button">ADD TO CART</button>
               <p className="customer_home_deal-stock">Already Sold: 20 / Available: 40</p>
@@ -206,7 +209,7 @@ const Customer_Home = () => {
             <img src={img1} alt="Deal of the day" className="customer_home_deal-image" />
             <div className="customer_home_deal-content">
               <h3 className="customer_home_deal-title">Deal Of The Day</h3>
-              <p className="customer_home_deal-description"><strong>SHAMPOO, CONDITIONER & FACEWASH PACKS</strong></p>
+              <p className="customer_home_deal-description"><strong>Cars, New Motor Cars</strong></p>
               <p className="customer_home_deal-price"><span className="customer_home_deal-current-price">$150.00</span> <del className="customer_home_deal-old-price">$200.00</del></p>
               <button className="customer_home_deal-button">ADD TO CART</button>
               <p className="customer_home_deal-stock">Already Sold: 20 / Available: 40</p>

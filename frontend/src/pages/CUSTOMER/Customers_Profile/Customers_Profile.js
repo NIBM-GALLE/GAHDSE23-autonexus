@@ -26,7 +26,7 @@ const Customers_Profile = () => {
             <div className="customers_profile_username">Kalana De Silva</div>
             <div className="customers_profile_table customers_profile_menu_buttons">
               <div className="customers_profile_table_data">
-                <div className="customers_profile_menu_button"><i className="material-icons"><MdArchive /></i><span>Activity log</span></div>
+                <div className="customers_profile_menu_button"><i className="material-icons"><MdArchive /></i><span>Edit Profile</span></div>
               </div>
               <div className="customers_profile_table_data">
                 <div className="customers_profile_menu_button"><i className="material-icons"><MdArchive /></i><span>Privacy</span></div>

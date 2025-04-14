@@ -80,7 +80,7 @@
 }
 
 .customer_home_hero-button {
-    background: #e91e63;
+    background: #1e7de9;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -129,7 +129,7 @@
     border-radius: 10px;
     font-weight: 600;
     font-size: 16px;
-    color: #e91e63;
+    color: #1e7de9;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
 }
@@ -192,7 +192,7 @@
 
 .customer_home_product-price {
     font-size: 14px;
-    color: #e91e63;
+    color: #1e7de9;
     font-weight: 600;
 }
 
@@ -229,7 +229,7 @@
 }
 
 .customer_home_deal-current-price {
-    color: #e91e63;
+    color: #1e7de9;
     font-weight: bold;
     font-size: 18px;
 }
@@ -241,7 +241,7 @@
 }
 
 .customer_home_deal-button {
-    background: #e91e63;
+    background: #1e7de9;
     color: white;
     border: none;
     padding: 8px 16px;
